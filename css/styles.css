@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424242;
+}
+h1, h2, h3, h4 {
+    font-weight: normal;
+}
+a {
+    color: #fff;
+    font-size: 13px;
+}
+#noProfileWrapper {
+    width: 960px;
+    margin: 40px auto 0 auto;
+}
+#noProfileContent {
+    width: 878px;
+    height: 300px;
+    margin: 120px auto 0 auto;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+    box-shadow: 0 1px 10px rgba(0,0,0,.1);
+}
+#noProfileContent h1 {
+    font-size: 24px;
+}
+#noProfileContent h2 {
+    font-size: 17px;
+    margin: 15px 0 15px 0;
+}
+#noProfileLeftContent {
+    width: 517px;
+    margin: 20px;
+    padding-bottom:9px;
+    float: left;
+    border-bottom: 1px dotted #d4d4d4;
+}
+#noProfileRightContent {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 0;
+}
+#noProfileContent dt {
+    color: #3c83bc;
+    font-size: 16px;
+    margin: 5px 0 0 0;
+}
+#noProfileContent dd {
+    font-size: 12px;
+    margin: 0 0 15px 0;
+}
+#noProfileTopNav {
+    background: url("../assets/topnav_bg.png") repeat-x scroll left top transparent;
+    -moz-box-shadow: 0 -5px 9px 6px #555;
+    -webkit-box-shadow: 0 -5px 9px 6px #555;
+    box-shadow: 0 -5px 9px 6px #555;
+    height: 40px;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+#noProfileTopNavContent {
+    width: 960px;
+    margin: 0 auto;
+}
+#noProfileTopNavContent a {
+    font-weight: bold;
+    padding: 10px 25px 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+#noProfileTopNavContent a:hover {
+    text-decoration: underline;
+}
+#engineeringHeader {
+    height: 91px;
+    width: 100%;
+    background: url('../assets/ucam-header.jpg');
+    border-bottom: 5px solid #383737;
+}
+.is-product-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    padding: 30px 0 0 20px;
+    text-shadow: 0 0 2px #333;
+}
+.is-product-title span {
+    font-weight: normal;
+    display: block;
+    font-size: 0.75em;
+}
+#contactForm {
+    border: solid 1px #DFDFDF;
+    border-top: none;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 10px;
+}
+#contactFormTitle {
+    border-bottom: none;
+    background: url("../assets/widget_header_bg.png") repeat-x scroll left top #DDDDDC;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 12px;
+    color: #666;
+    font-weight: bold;
+    font-size: 13px;
+}
+#contactFormContainer {
+    font-size: 0.8em;
+    margin: 10px;
+}
+#contactFormContainer label {
+    display: block;
+    margin: 10px 0 2px 0;
+}
+#contactFormContainer textarea, #contactFormContainer #email{
+    width: 277px;
+    border-width: 1px;
+    border-color: #d4d4d4;
+    border-style:solid;
+    padding: 4px;
+    resize: none;
+}
+
+#contactFormContainer textarea{
+        height: 60px;
+}
+
+.s3d-button {
+    border-radius: 5px 5px 5px 5px;
+    padding: 1px 12px 0;
+    display: inline-block;
+    float: right;
+    margin: 8px 0 2px 0;
+    background: url("../assets/button_overlay_default.png") repeat-x scroll left top transparent;
+    border: 1px solid #E0E3E5;
+    font-size: 11px;
+    font-weight: bold;
+    height: 24px;
+    margin-left: 15px;
+    box-shadow: 0 1px 1px 0 #999;
+    text-shadow: 0 2px 3px white;
+    color: #2683BC;
+    cursor: pointer;
+}
+.s3d-button:hover {
+    background: url("../assets/button_large_hover.png") repeat-x scroll left top transparent;
+    color: #999;
+}
+hr {
+    clear: both;
+    border: 0;
+}
