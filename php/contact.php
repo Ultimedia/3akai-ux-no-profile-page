@@ -10,7 +10,7 @@
     
     $message = $from . ' ' . $body;
     
-    if(mail($to, $subject, $body)) {
+    if(mail($to, $subject, $message)) {
         echo "Your message has been sent.<br/><br/> We will contact you shortly if your message requires a response, and you provided an email address.";
     }{
         echo false;
